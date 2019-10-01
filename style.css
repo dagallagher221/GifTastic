@@ -1,0 +1,14 @@
+button {
+    background-color: red;
+    color: white;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: peachpuff;
+    color: green;
+}

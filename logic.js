@@ -1,4 +1,5 @@
-$("#built-in-button").on("click", function() {
+$(".built-in-button").on("click", function() {
+    console.log("clicked")
     var person = $(this).attr("data-person");
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       person + "&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=10";
@@ -28,6 +29,7 @@ $("#built-in-button").on("click", function() {
       });
   });
 $("#search-button").on("click", function() {
+  
 var person = $("#search-box").val();
 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       person + "&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=10";
